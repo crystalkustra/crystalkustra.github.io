@@ -90,7 +90,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c338e54931a288c40fea"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f0714913b6b5cde0e820"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -755,7 +755,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","4":"bundles/pages/workshops.js"}[chunkId]||chunkId) + "-" + {"0":"ec020147c854393ab619","1":"122608cc65a8378d3a08","2":"94691197e93b13afc0f7","4":"4614bf4c1ac0e98d9eed"}[chunkId] + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","4":"bundles/pages/index.js"}[chunkId]||chunkId) + "-" + {"0":"ec020147c854393ab619","1":"122608cc65a8378d3a08","2":"94691197e93b13afc0f7","4":"be26d861813e16476e9a"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
